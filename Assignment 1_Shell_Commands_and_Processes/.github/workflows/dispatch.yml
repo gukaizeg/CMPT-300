@@ -1,0 +1,10 @@
+# This is a basic workflow to help you get started with Actions
+
+name: a1 Dispatch workflow
+
+on: [push, workflow_dispatch]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  shared:
+    uses: CMPT-300-Spring-2023/grader/.github/workflows/a1-shared.yml@main
